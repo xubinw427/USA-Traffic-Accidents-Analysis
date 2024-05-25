@@ -1,0 +1,156 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.controls {
+  width: 20%;
+  height: 180%;
+  padding: 1rem;
+  background: #14161a;
+  color: #fff;
+}
+
+.controls input {
+  border: none;
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.map {
+  width: 80%;
+  height: 100vh;
+}
+
+.highlight {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.x-button {
+  position: "absolute";
+  right: "10px";
+  top: "50%";
+  transform: "translateY(-50%)";
+  cursor: "pointer";
+  background: "transparent";
+  border: "none";
+  color: "#999";
+  fontWeight: "bold";
+}
+
+.list-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px; /* Adjust as necessary */
+  font-family: 'Arial', sans-serif; /* Consider using a web-friendly font */
+}
+
+.list-container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.list-item {
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 8px; /* Space between items */
+}
+
+.list-item:hover {
+  background-color: #f2f2f2;
+}
+
+.distance {
+  color: #666;
+  font-size: 0.9em; /* Smaller font for distance */
+}
+
+/* If using a :hover effect in JS, you can also add an .active class and style it similarly to :hover */
+.list-item.active, .list-item:hover {
+  background-color: #e8e8e8; /* Active or hover state color */
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="number"],
+input[type="datetime-local"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Make sure padding doesn't affect the overall width */
+}
+
+input[type="number"]:focus,
+input[type="datetime-local"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  input[type="number"],
+  input[type="datetime-local"],
+  select,
+  button {
+    width: 100%;
+  }
+}

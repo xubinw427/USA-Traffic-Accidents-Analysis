@@ -1,0 +1,41 @@
+.app-container {
+  display: flex;
+  height: 90vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 0 0 200px; 
+  padding: 20px;
+  gap: 10px; 
+}
+
+.content-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-navbar {
+  display: flex;
+  /* background-color: #242F3E; */
+  padding: 10px;
+}
+
+.content {
+  /* border: 10px black solid; */
+  height: 10px;
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.secondary-navbar button{
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
+

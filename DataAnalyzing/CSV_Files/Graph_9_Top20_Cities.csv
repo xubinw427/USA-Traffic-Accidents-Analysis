@@ -1,0 +1,81 @@
+Severity,City,num_accidents
+4,Atlanta,2841
+4,Miami,2192
+4,Dallas,1199
+4,Orlando,1114
+4,Houston,1110
+4,Jacksonville,1006
+4,Los Angeles,939
+4,Phoenix,886
+4,Charlotte,682
+4,Columbia,607
+4,Raleigh,545
+4,Richmond,530
+4,Nashville,485
+4,Austin,440
+4,San Diego,349
+4,Tucson,313
+4,Sacramento,295
+4,Baton Rouge,258
+4,Minneapolis,131
+4,Oklahoma City,127
+3,Los Angeles,34927
+3,Dallas,33024
+3,Atlanta,31020
+3,Houston,29411
+3,Jacksonville,15059
+3,Miami,14650
+3,Minneapolis,12326
+3,San Diego,11782
+3,Nashville,10579
+3,Phoenix,9132
+3,Austin,8584
+3,Raleigh,7973
+3,Richmond,7399
+3,Charlotte,7216
+3,Columbia,6974
+3,Sacramento,6802
+3,Baton Rouge,6569
+3,Orlando,5969
+3,Oklahoma City,5063
+3,Tucson,1170
+2,Miami,169909
+2,Houston,138459
+2,Charlotte,128228
+2,Los Angeles,120368
+2,Orlando,101873
+2,Dallas,95721
+2,Austin,87613
+2,Raleigh,76477
+2,Baton Rouge,63643
+2,Nashville,60668
+2,Sacramento,58421
+2,San Diego,43257
+2,Phoenix,41738
+2,Oklahoma City,40311
+2,Richmond,39349
+2,Minneapolis,38937
+2,Tucson,34592
+2,Atlanta,34169
+2,Columbia,30295
+2,Jacksonville,26060
+1,Tucson,3229
+1,Charlotte,2526
+1,Phoenix,2218
+1,Richmond,1567
+1,Nashville,1198
+1,Baton Rouge,1118
+1,Raleigh,1084
+1,Dallas,995
+1,Orlando,777
+1,Sacramento,746
+1,Austin,722
+1,Houston,629
+1,Oklahoma City,591
+1,Jacksonville,322
+1,Columbia,302
+1,Los Angeles,257
+1,Miami,166
+1,Atlanta,156
+1,San Diego,116
+1,Minneapolis,94

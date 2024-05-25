@@ -1,0 +1,4 @@
+# PyCharm
+.idea/
+venv/
+flask-server/Prediction/data/2022_real_data.csv
